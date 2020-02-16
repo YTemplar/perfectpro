@@ -1,0 +1,712 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+	#banner{
+		padding: 230px 0 50px;
+	}
+	#banner p.headpnew{
+		padding-bottom: 130px;
+	}
+	#service h3.bigtitle, #contact h3.bigtitle {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	#service p.innerp br,#contact p.innerp br{
+		display: none;
+		padding-top: 75px;
+	}
+	.innercontent {
+		padding: 3px 5px 5px;
+		min-height: 210px;
+	}
+	.imgdiv {
+		min-height: 210px;
+	}
+	.innercontentnew {
+		padding: 70px 10px 20px;
+	}
+	#service p.smalltitle, #procedure h3.smalltitle, #team h3.smalltitle, #contact p.smalltitle{
+		font-size: 20px;
+	}
+	#procedure article{
+		margin-top: 75px;
+	}
+	#blog p.innerp {
+		font-size: 12px;
+		line-height: 16px;
+		padding-bottom: 10px;		
+	}
+	#blog h3.title {
+		font-size: 20px;		
+		padding-bottom: 15px;
+		line-height: 20px;
+	}
+	span.number{
+		left: 40%;
+	}
+	.borderdivnew span.number {
+		left: 60%;
+	}
+	.borderdivfull span.number {
+		left: 31%;
+	}
+	#team img{
+		width: 100%;
+	}
+	#team p.innersmall {
+		padding: 5px 0;
+	}
+	footer article.productarticle {
+		max-width: 500px;
+		margin-right: 10%;
+	}
+	footer p.smallp{
+		padding: 30px 10px 0;
+	}
+
+}
+
+@media only screen and (min-width: 960px) and (max-width: 991px) {
+	.nav-collapse a{
+		font-size: 14px;
+	}
+	#service p.innerp br,#contact p.innerp br,#testimonial p.smalltitle br{
+		display: none;
+		padding-top: 75px;
+	}
+	#service h3.title, #work h3.bigtitle, #work .innercontent h3.bigtitle, #procedure h3.bigtitle, #blog h3.bigtitle, #client h3.bigtitle, #team h3.bigtitle, footer p.bigtitle{
+		font-size: 23px;
+	}
+	#service article p.smalltitle, #work p.smalltitle, #blog p.smalltitle, #client p.smalltitle, #team h3.smalltitle, #team p.innerp{
+		font-size: 15px;
+	}
+	.maincontent {
+		width: 50%;
+		padding-top: 0px; 
+	}
+	#work p.smalltitle{
+		padding-bottom: 70px;
+	}
+	.innercontent{
+		min-height: 315px;
+		padding: 70px 35px 20px;
+	}
+	.innercontentnew {
+		padding: 90px 30px 20px;
+	}
+	#procedure button.get{
+		width: 170px;
+	}
+	#blog p.innerp {
+		font-size: 12px;
+		line-height: 13px;
+		padding-bottom: 5px;		
+		text-transform: lowercase; 
+	}
+	#blog h3.title {	
+		padding-bottom: 15px;
+		line-height: 18px;
+		font-size: 16px;
+	}
+	.borderdiv {		
+		padding: 20px 20px 0 60px;	
+		margin-top: 15px;
+	}
+	.blogcontent {
+		padding-right: 15px;
+	}
+	#blog a {		
+		font-size: 14px;
+	}
+	span.number{
+		width: 35px;
+		height: 35px;
+		padding-top: 5px;
+		font-size: 15px;
+		left: 48%;
+	}
+	.borderdivnew {	
+		padding: 20px 60px 0 20px;	
+		margin-top: 15px;
+	}
+	.borderdivnew span.number {
+		left: 73%;
+	}
+	.borderdivfull span.number {
+		left: 38%;
+	}
+	.borderdivfull{
+		padding: 44px 10px 0 20px;
+		margin-top: -20px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.fa-4x {
+		font-size: 3em;
+	}
+	#client .maincontentdiv {
+		max-width: 570px;
+	}
+	#team img{
+		width: 100%;
+	}
+	#team p.innersmall {
+		padding: 5px 0;
+	}
+	footer article.productarticle {
+		max-width: 500px;
+		margin-right: 5%;
+	}
+	footer p.smallp{
+		padding: 30px 10px 0;
+	}
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {	
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#banner{
+		padding: 203px 0 50px;
+	}
+	#service, #team,#client{
+		padding: 70px 0 70px;
+	}
+	#work, #blog{
+		padding: 70px 0 70px;
+	}
+	.toppad {
+		padding-top: 25px;
+	}
+	#client .toppad {
+		padding-top: 50px;
+	}
+	#procedure{
+		padding: 30px 0 70px;
+	}
+	#procedure h3.toppad {
+		padding: 60px 0 25px;
+	}
+	#procedure article{
+		margin-top: 50px;
+	}
+	#testimonial, #contact{
+		padding: 70px 0 70px;
+	}
+	#service article {
+		padding-top: 60px;
+	}
+	#service p.innerp,#contact p.innerp{
+		padding-top: 35px;
+	}
+	#banner p.headpnew{
+		padding-bottom: 130px;
+	}
+	.nav-collapse a{
+		font-size: 14px;
+	}
+	#service p.innerp br,#contact p.innerp br,#testimonial p.smalltitle br{
+		display: none;
+		padding-top: 75px;
+	}
+	#service h3.title{
+		padding: 20px 0 10px;
+	}
+	#service h3.title, #work h3.bigtitle, #work .innercontent h3.bigtitle, #procedure h3.bigtitle, #blog h3.bigtitle, #client h3.bigtitle, #team h3.bigtitle, footer p.bigtitle{
+		font-size: 23px;
+
+	}
+	#service article p.smalltitle, #work p.smalltitle, #blog p.smalltitle, #client p.smalltitle, #team h3.smalltitle, #team p.innerp{
+		font-size: 15px;
+	}
+	.maincontent {
+		width: 50%;
+		padding-top: 0px; 
+	}
+	#work p.smalltitle{
+		padding-bottom: 70px;
+	}
+	.innercontent{
+		min-height: 315px;
+		padding: 70px 35px 20px;
+	}
+	.innercontentnew {
+		padding: 90px 30px 20px;
+	}
+	#procedure button.get{
+		width: 170px;
+		margin-top: 75px;
+	}
+	#blog p.innerp {
+		font-size: 12px;
+		line-height: 13px;
+		padding-bottom: 5px;		
+		text-transform: lowercase; 
+	}
+	#blog h3.title {	
+		padding-bottom: 15px;
+		line-height: 18px;
+		font-size: 16px;
+	}
+	.borderdiv {		
+		padding: 20px 20px 0 60px;	
+		margin-top: 15px;
+	}
+	.blogcontent {
+		padding-right: 15px;
+	}
+	#blog a {		
+		font-size: 14px;
+	}
+	span.number{
+		width: 35px;
+		height: 35px;
+		padding-top: 5px;
+		font-size: 15px;
+		left: 48%;
+	}
+	.borderdivnew {	
+		padding: 20px 60px 0 20px;	
+		margin-top: 15px;
+	}
+	.borderdivnew span.number {
+		left: 74%;
+	}
+	.borderdivfull span.number {
+		left: 38%;
+	}
+	.borderdivfull{
+		padding: 44px 10px 0 20px;
+		margin-top: -20px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.fa-4x {
+		font-size: 3em;
+	}
+	#client .maincontentdiv {
+		max-width: 570px;
+	}
+	#team img{
+		width: 100%;
+	}
+	#team p.innersmall {
+		padding: 5px 0;
+	}
+	footer article.productarticle {
+		max-width: 415px;
+		margin-right: 15px;
+		padding: 60px 0 40px;
+	}
+	footer p.smallp{
+		padding: 30px 10px 0;
+	}
+	footer p.lightp {	
+		font-size: 17px;
+		line-height: 22px;
+	}
+	footer address.officearticle{
+		padding: 60px 0  0 15px;
+	}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	header {
+		padding: 10px 0 0;
+	}
+	#service p.innerp br,#contact p.innerp br,#testimonial p.smalltitle br{
+		display: none;
+		padding-top: 75px;
+	}
+	#service h3.title{
+		padding: 10px 0 5px;
+	}
+	#blog .blog-left,#blog .blog-right,.blogimg, .blogcontent{
+		width: 100%;
+	}
+	.blogcontent {
+		padding-right: 30px;
+	}
+	#blog img {    
+		margin-top: -25px;
+	}
+	#testimonial{
+		text-align: center;
+	}
+	.borderdiv{
+		margin-left: 30px;
+		padding: 60px 20px 0 40px;
+		margin-top: -40px;
+	}
+	span.number,.borderdivnew span.number{
+		left: 59%;
+	}
+	.borderdivfull span.number {
+		left: 58%;
+	}
+	.borderdivnew{
+		margin-left: 30px;
+		padding: 20px 20px 25px 40px;
+		margin-right: 0; 
+		margin-top: 20px;
+	}
+	.borderdivfull {
+		padding: 60px 0 0 30px;
+		margin-top: -37px;
+		margin-left: 25px;	
+		margin-right: 25px;
+	}
+	#client .innerclient{
+		margin: 0 auto 15px;
+	}
+	#client p.smalltitle {
+		padding-top: 10px;
+	}
+	#team article img{
+		margin: 0 auto 15px;
+		display: block;
+	}
+	#team article{
+		text-align: center;
+		padding-top: 15px;
+	}
+	.toppad {
+		padding-top: 20px;
+	}
+	.borderbottom{
+		padding-bottom: 30px;
+	}
+	#team p.innerp {
+		padding-top: 30px;
+	}
+	footer .product,footer .office{
+		width: 100%;
+		min-height: 380px;
+	}
+	#blog p.smalltitle{
+		padding-bottom: 50px;
+	}
+	#blog h3.title {
+		font-size: 18px;
+	}
+	footer .centerdiv{
+		width: 100%;
+		min-height: 0;
+	}
+	footer article.productarticle,footer address.officearticle {		
+		float: none;
+		margin-right: 0;
+		width: auto;
+		padding: 50px 50px;
+	}
+	.innerproduct{
+		padding-bottom: 45px;
+	}
+	h4{
+		padding-bottom: 45px;
+	}
+	#service h3.bigtitle, #contact h3.bigtitle{
+		padding-bottom: 10px;
+	}
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#banner{
+		padding: 130px 0 40px;
+	}
+	#banner p.headpnew{
+		padding-bottom: 60px;
+	}
+	#banner h2 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	#banner p.headpottom{
+		font-size: 22px;
+		line-height: 25px;
+	}
+	#banner p.headp{
+		padding-top: 15px;
+	}
+	#service, #team,#client,#work, #blog,#testimonial, #contact,#procedure{
+		padding: 50px 0;
+	}
+	#service p.smalltitle, #procedure h3.smalltitle, #team h3.smalltitle, #contact p.smalltitle {
+		font-size: 18px;
+		line-height: 18px;
+	}
+	#service h3.bigtitle, #contact h3.bigtitle {
+		font-size: 20px;
+		line-height: 22px;
+	}
+	#service p.innerp,#contact p.innerp{
+		padding-top: 30px;
+	}
+	#service article {
+		padding-top: 40px;
+	}
+	#contact button.get {	
+		margin-top: 40px;
+	}
+	.imgdiv {
+		min-height: 200px;
+	}
+	.maincontent {
+		width: 50%;		
+		padding-top: 0;
+	}
+	#work .innercontent h3 {
+		font-size: 30px;
+	}
+
+	#work .innercontent p.innerp{
+		font-size: 14px;
+		padding: 10px 0;
+		line-height: 18px;
+	}
+	.innercontent {
+		padding: 10px 10px;
+		min-height: 200px;
+	}
+	#work p.smalltitle{
+		padding-bottom: 70px;
+	}
+	.innercontentnew {
+		padding: 50px 10px 20px;
+	}
+	#work .innercontent h3.bigtitle{ 
+		font-size: 23px;
+		line-height: 25px;
+	}
+	#testimonial p.smalltitle {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	#testimonial span {
+		margin: 5px auto 20px;
+	}
+	#procedure article{
+		margin-top: 30px;
+	}
+	#procedure article p.innersmall{
+		padding-top: 15px;
+	}
+	#procedure h3.bigtitle{
+		padding: 30px 0 0px;
+		font-size: 18px;
+	}
+	#procedure button.get{
+		float: none;
+		margin: 30px auto 0;
+		display: block;
+	}
+	#client .toppad {
+		padding-top: 50px;
+	}
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {	
+	#banner{
+		padding: 130px 0 40px;
+	}
+	#banner h1 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	#banner p.headp{
+		font-size: 15px;
+	}
+	#testimonial .fa-smile-o {		
+		top: 6px;
+	}
+	#banner p.headpnew{
+		padding-bottom: 60px;
+		font-size: 18px;
+	}
+	#banner h2 {
+		font-size: 25px;
+		line-height: 25px;
+	}
+	#banner p.headpottom{
+		font-size: 22px;
+		line-height: 25px;
+	}
+	#banner p.headp{
+		padding-top: 15px;
+	}
+	#service, #team,#client,#work, #blog,#testimonial, #contact{
+		padding: 30px 0;
+	}
+	#blog p.smalltitle, #team h3.smalltitle {	
+		line-height: 18px;
+	}
+	#procedure{
+		padding: 0 0 50px;
+	}
+	#service h3.title, #work h3.bigtitle, #work .innercontent h3.bigtitle, #procedure h3.bigtitle, #blog h3.bigtitle, #client h3.bigtitle, #team h3.bigtitle, footer p.bigtitle{
+		font-size: 17px;
+	}
+	#service p.smalltitle, #procedure h3.smalltitle, #team h3.smalltitle, #contact p.smalltitle {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	#service h3.bigtitle, #contact h3.bigtitle {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	#service p.innerp,#contact p.innerp{
+		padding-top: 30px;
+		font-size: 13px;
+	}
+	#service article {
+		padding-top: 40px;
+	}
+	#contact button.get {	
+		margin-top: 40px;
+		width: 200px;
+	}
+	.imgdiv {
+		min-height: 200px;
+	}
+	.maincontent {
+		width: 50%;		
+		padding-top: 0;
+	}
+	#work .innercontent h3 {
+		font-size: 30px;
+	}
+
+	#work .innercontent p.innerp{
+		font-size: 14px;
+		padding: 10px 0;
+		line-height: 18px;
+	}
+	#service h3.title {
+		padding: 10px 0 0px;
+	}
+	.innercontent {
+		padding: 10px 10px;
+		min-height: auto;
+	}
+	#work p.smalltitle{
+		padding-bottom: 30px;
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.innercontentnew {
+		padding: 20px 0;
+	}
+	#work .innercontent h3.bigtitle{ 
+		font-size: 20px;
+		line-height: 25px;
+	}
+	#work p.innerp {
+		padding-top: 0px;
+	}
+	#testimonial p.smalltitle {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	#testimonial span {
+		margin: 5px auto 20px;
+	}
+	#procedure article{
+		margin-top: 30px;
+	}
+	#procedure article p.innersmall{
+		padding-top: 15px;
+		font-size: 14px;
+	}
+	#procedure h3.bigtitle{
+		padding: 30px 0 0px;
+		font-size: 18px;
+		line-height: 25px;
+
+	}
+	#procedure button.get{
+		float: none;
+		margin: 30px auto 0;
+		display: block;
+		width: 240px;
+	}
+	#client .toppad {
+		padding-top: 30px;
+	}
+	.maincontent {
+		width: 100%;
+	}
+	#blog p.innerp {
+		font-size: 16px;
+		line-height: 17px;
+		padding-bottom: 10px;
+		text-transform: lowercase;
+	}
+	#blog h3.title {
+		font-size: 16px;
+		padding-bottom: 10px;
+		line-height: 20px;
+	}
+	span.number, .borderdivnew span.number {
+		left: 31%;
+	}
+	.borderdivfull span.number {
+		left: 18%;
+	}
+	.borderdivfull {
+		padding: 60px 5px 0 30px;
+	}
+	.borderdivnew {
+		margin-left: 20px;
+		padding: 20px 20px 25px 20px;
+	}
+	.borderdiv {	
+		margin-left: 20px;
+		padding: 60px 15px 0 15px;
+		
+	}
+	.blogcontent {
+		padding-right: 15px;
+	}
+	h4 {
+		padding: 20px 0;
+	}
+	.innerproduct {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	footer p.smallp{
+		padding: 20px 0 0; 
+	}
+	footer article.productarticle, footer address.officearticle{
+		padding: 25px 25px;
+	}
+	footer p.bigp, footer p.lightp{
+		font-size: 15px;
+		line-height: 20px;
+		padding-bottom: 0;
+
+	}
+	footer .product, footer .office{
+		min-height: 310px;
+	}
+	footer p.linkp{
+		font-size: 11px;
+		line-height: 20px;
+	}
+	footer .row {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+}
+
